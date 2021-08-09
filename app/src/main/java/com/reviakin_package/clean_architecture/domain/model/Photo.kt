@@ -1,4 +1,4 @@
-package com.reviakin_package.clean_architecture.model
+package com.reviakin_package.clean_architecture.domain.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

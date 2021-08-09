@@ -1,7 +1,7 @@
-package com.reviakin_package.clean_architecture.source.local.dao
+package com.reviakin_package.clean_architecture.data.source.local.dao
 
 import androidx.room.*
-import com.reviakin_package.clean_architecture.model.Photo
+import com.reviakin_package.clean_architecture.domain.model.Photo
 
 @Dao
 interface PhotoDao {

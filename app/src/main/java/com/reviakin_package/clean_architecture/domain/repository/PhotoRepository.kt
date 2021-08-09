@@ -1,6 +1,6 @@
-package com.reviakin_package.clean_architecture.repository
+package com.reviakin_package.clean_architecture.domain.repository
 
-import com.reviakin_package.clean_architecture.model.Photo
+import com.reviakin_package.clean_architecture.domain.model.Photo
 import io.reactivex.Single
 
 interface PhotoRepository {
