@@ -1,8 +1,8 @@
-package com.reviakin_package.clean_architecture.local
+package com.reviakin_package.clean_architecture.source.local
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.reviakin_package.clean_architecture.local.dao.PhotoDao
+import com.reviakin_package.clean_architecture.source.local.dao.PhotoDao
 import com.reviakin_package.clean_architecture.model.Photo
 
 @Database(entities = [Photo::class], version = 1, exportSchema = false)

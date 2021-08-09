@@ -1,4 +1,4 @@
-package com.reviakin_package.clean_architecture.local.dao
+package com.reviakin_package.clean_architecture.source.local.dao
 
 import androidx.room.*
 import com.reviakin_package.clean_architecture.model.Photo

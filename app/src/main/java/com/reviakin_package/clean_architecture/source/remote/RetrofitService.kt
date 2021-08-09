@@ -1,4 +1,4 @@
-package com.reviakin_package.clean_architecture.remote
+package com.reviakin_package.clean_architecture.source.remote
 
 import android.provider.ContactsContract
 import com.reviakin_package.clean_architecture.model.Album
