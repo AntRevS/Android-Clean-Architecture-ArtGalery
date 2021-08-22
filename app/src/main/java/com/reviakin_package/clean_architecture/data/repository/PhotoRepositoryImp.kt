@@ -16,18 +16,19 @@ class PhotoRepositoryImp(
     }
 
     override fun getPhotoDetail(photoId: Long?): Single<Photo> {
-        TODO("Not yet implemented")
+        return retrofitService.getPhotoDetail(photoId!!)
     }
 
     override fun deletePhoto(photo: Photo) {
-        TODO("Not yet implemented")
+        database.photoDao.delete(photo)
     }
 
     override fun addPhoto(photo: Photo) {
-        TODO("Not yet implemented")
+        database.photoDao.insert(photo)
     }
 
     override fun isFavorite(photoId: Long): Boolean {
-        TODO("Not yet implemented")
+        val loadOneByPhotoId = database.photoDao.loadOneByPhotoId(photoId)
+        return loadOneByPhotoId != null
     }
 }
