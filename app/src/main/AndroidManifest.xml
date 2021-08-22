@@ -2,7 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.reviakin_package.clean_architecture">
 
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
     <application
         android:name=".MainApplication"
         android:allowBackup="true"
@@ -11,15 +13,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Clean_architecture">
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+        <activity android:name=".presentation.gallery.GalleryActivity"
+            android:theme="@style/Theme.Clean_architecture">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <activity android:name=".presentation.detailphoto.PhotoDetailActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
     </application>
+
+    <uses-feature android:name="android.hardware.touchscreen"
+        android:required="false" />
 
 </manifest>
