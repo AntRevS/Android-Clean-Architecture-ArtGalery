@@ -7,6 +7,10 @@
         <entry key="..\:/android/fgithub/Android-Clean-Architecture/Android-Clean-Architecture/app/src/main/res/drawable/ic_star_empty_white_vector.xml" value="0.2890625" />
         <entry key="..\:/android/fgithub/Android-Clean-Architecture/Android-Clean-Architecture/app/src/main/res/drawable/ic_star_full_vector.xml" value="0.2890625" />
         <entry key="..\:/android/fgithub/Android-Clean-Architecture/Android-Clean-Architecture/app/src/main/res/layout/activity_photo_detail.xml" value="0.18" />
+        <entry key="..\:/android/fgithub/Android-Clean-Architecture/Android-Clean-Architecture/app/src/main/res/layout/fragment_albums.xml" value="0.27291666666666664" />
+        <entry key="..\:/android/fgithub/Android-Clean-Architecture/Android-Clean-Architecture/app/src/main/res/layout/fragment_photos.xml" value="0.27291666666666664" />
+        <entry key="..\:/android/fgithub/Android-Clean-Architecture/Android-Clean-Architecture/app/src/main/res/layout/holder_album.xml" value="0.27291666666666664" />
+        <entry key="..\:/android/fgithub/Android-Clean-Architecture/Android-Clean-Architecture/app/src/main/res/layout/holder_photo.xml" value="0.1281661600810537" />
       </map>
     </option>
   </component>
